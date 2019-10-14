@@ -152,7 +152,7 @@ public final class EsoFisherman{
 		
 		// Copy the values inside created ArrayList. We use the ArrayList, but array since the amount of values in the file increase with time
 		Scanner input = new Scanner(timesFile);
-		ArrayList<Integer> timerBeforeReelIn = new ArrayList<Integer>();
+		timerBeforeReelIn = new ArrayList<Integer>();
 		
 		if (input.hasNext() == true) { // what is more efficient: (input.hasNext() == true) or (timesFile.length() > 0)  ?
 			do {
