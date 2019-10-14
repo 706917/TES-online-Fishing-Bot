@@ -1,6 +1,5 @@
 import java.awt.AWTException;
 import java.io.IOException;
-import java.awt.event.KeyEvent;
 
 /** Java class to provide automated performance in TES Online game.
  * Automated actions - fishing
