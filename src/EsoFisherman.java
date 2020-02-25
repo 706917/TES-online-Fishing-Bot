@@ -89,23 +89,27 @@ public final class EsoFisherman{
 		switcher.delay((int)Math.random()*6000 + 3000); 
 		
 		// Use this block if you have one monitor
-//		switcher.keyPress(KeyEvent.VK_ALT);
-//		switcher.keyPress(KeyEvent.VK_CONTROL);
-//		switcher.keyPress(KeyEvent.VK_TAB);
-//		switcher.delay(100);
-//		switcher.keyRelease(KeyEvent.VK_ALT);
-//		switcher.keyRelease(KeyEvent.VK_CONTROL);
-//		switcher.keyRelease(KeyEvent.VK_TAB);
-//		
-//		switcher.keyPress(KeyEvent.VK_ENTER);
-//		switcher.delay(50);
-//		switcher.keyRelease(KeyEvent.VK_ALT);
+		switcher.keyPress(KeyEvent.VK_ALT);
+		switcher.keyPress(KeyEvent.VK_CONTROL);
+		switcher.keyPress(KeyEvent.VK_TAB);
+		switcher.delay(100);
+		switcher.keyRelease(KeyEvent.VK_ALT);
+		switcher.keyRelease(KeyEvent.VK_CONTROL);
+		switcher.keyRelease(KeyEvent.VK_TAB);
+		
+		switcher.keyPress(KeyEvent.VK_ENTER);
+		switcher.delay(50);
+		switcher.keyRelease(KeyEvent.VK_ALT);
+		// mouse click
+//		switcher.mousePress(InputEvent.BUTTON1_DOWN_MASK);
+//	    switcher.delay(100);
+//	    switcher.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
 //		
 		// Use this block if u have two monitors - one for the game, one for the IDE
-		switcher.mouseMove((int)Math.random()*1000, (int)Math.random()*600);
-		switcher.mousePress(InputEvent.BUTTON1_DOWN_MASK);
-		switcher.delay(100);
-		switcher.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
+//		switcher.mouseMove((int)Math.random()*1000, (int)Math.random()*600);
+//		switcher.mousePress(InputEvent.BUTTON1_DOWN_MASK);
+//		switcher.delay(100);
+//		switcher.mouseRelease(InputEvent.BUTTON1_DOWN_MASK);
 		
 		System.out.println("Windows switched.");
 	}
