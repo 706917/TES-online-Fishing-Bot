@@ -4,7 +4,7 @@ import java.io.IOException;
 /** Java class to provide automated performance in TES Online game.
  * Automated actions - fishing
  * 
- * Current version works only with following conditions:
+ * Current version workseer only with following conditions:
  * 1 - The monitor has resolution 1920 x 1080
  * 1 - The game runs on full screen mode
  * 2 - VOTAN FISHERMAN ADDON installed and activated in the game
